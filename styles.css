@@ -1,0 +1,56 @@
+#cabecalho {
+background-image: url(cabecalho.jpg); 
+height: 336px;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+}
+
+#perfil {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 100px;
+}
+
+#eu {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nanda {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+#titulo {
+  color: red;
+}
+
+#cantora {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+}
+
+.musicas {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 100px;
+}
